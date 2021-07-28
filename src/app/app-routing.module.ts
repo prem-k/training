@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { GridViewComponent } from './components/grid-view/grid-view.component';
 import { RouteImageComponent } from './components/route-image/route-image.component';
-import { DynamicDivComponent } from './dynamic-div/dynamic-div.component';
+import { DynamicDivComponent } from './components/dynamic-div/dynamic-div.component';
 import { UsersListComponent } from './components/users-list/users-list.component';
 
 const routes: Routes = [

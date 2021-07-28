@@ -6,8 +6,16 @@
 
 .table {
     tr {
+        th {
+            cursor: pointer;
+        }
         td {
             text-align: center !important;
         }
     }
+}
+
+.sortBy {
+    font-weight: bold;
+    font-size: 18px;
 }
