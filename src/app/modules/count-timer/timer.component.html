@@ -1,0 +1,17 @@
+<div class="main">
+    <p><b>Using Input / Output decorator</b></p>
+    <div class="grid">
+        <div class="box">
+            <app-comp-one [countDownTimer]="countDownTimer"></app-comp-one>
+        </div>
+        <div class="box">
+            <app-comp-two [pausedArr]="pausedArr" (resetCallBack)="reset($event)" (setTimerCallBack)="setTimerFn($event)" (callBack)="counterFn($event)"></app-comp-two>
+        </div>
+        <div class="box">
+            <app-comp-three [logs]="logs"></app-comp-three>
+        </div>
+        <div class="box">
+            <app-comp-four [clicksTrack]="clicksTrack"></app-comp-four>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,23 @@
+#content {
+    margin-left: 12%;
+    margin-top: 4%;
+    width: 900px;
+    border: 1px solid black;
+    padding: 40px;
+}
+
+#contentInside {
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    border: 1px solid black;
+    display: inline-flex;
+}
+
+.click {
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    padding-top: 33%;
+}

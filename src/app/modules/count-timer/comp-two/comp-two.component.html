@@ -1,0 +1,10 @@
+<div class="border">
+    <p>Count down timer <input [(ngModel)]="timerLimit" (change)="onChange()" type="number"></p>
+    <p class="counter">
+        <button class="start_pause" name="start_pause" (click)="startFn()">Start/Pause</button>
+        <button name="start_pause" (click)="reset()">Reset</button>
+    </p>
+    <p *ngFor="let num of pausedArr">
+        <span>Paused At : {{num}}</span> <br>
+    </p>
+</div>

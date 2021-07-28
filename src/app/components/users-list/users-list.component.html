@@ -1,0 +1,16 @@
+<div class="main">
+    <table style="width:100%" border="1" align="center">
+        <tr>
+            <th>Photo</th>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Email</th>
+        </tr>
+        <tr *ngFor="let user of users;">
+            <td><img src="{{user?.avatar}}" width="80"></td>
+            <td>{{user?.first_name}}</td>
+            <td>{{user?.last_name}}</td>
+            <td>{{user?.email}}</td>
+        </tr>
+    </table>
+</div>

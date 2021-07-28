@@ -1,0 +1,15 @@
+<div class="heading">
+    <span (click)="setGrid('grid')" [class.active]="view == 'grid'">Grid View</span>
+    <span (click)="setGrid('list')" [class.active]="view == 'list'">List View</span>
+</div>
+<div class="main-container">
+    <div class="{{view}}-view">
+        <div class="box" *ngFor="let num of products">
+            <img src="assets/img.jfif">
+            <div class="pro-info">
+                <p>Samsung LED</p>
+                <p>price 18000 rs.</p>
+            </div>
+        </div>
+    </div>
+</div>

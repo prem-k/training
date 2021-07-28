@@ -1,0 +1,12 @@
+.main {
+    padding: 40px;
+    width: 900px;
+    margin-left: 12%;
+    margin-top: 4%;
+    border: 1px solid black;
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 40px;
+    }
+}
